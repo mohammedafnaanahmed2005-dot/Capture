@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VisionAI — Real-Time Object Detection</title>
+  <meta name="description" content="Real-time object detection dashboard powered by YOLOv4 and OpenCV. Live webcam feed with bounding boxes, object counts, and analytics charts." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/css/dashboard.css" />
+</head>
+<body>
+
+<!-- ─────────────── SIDEBAR ─────────────────────────────────────────────── -->
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-logo">
+    <div class="logo-icon">
+      <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+        <rect width="32" height="32" rx="8" fill="url(#logoGrad)"/>
+        <path d="M8 16L14 10L20 16L14 22L8 16Z" stroke="white" stroke-width="1.5" fill="none"/>
+        <circle cx="22" cy="10" r="3" fill="white" opacity="0.9"/>
+        <circle cx="10" cy="10" r="2" fill="white" opacity="0.5"/>
+        <circle cx="22" cy="22" r="2" fill="white" opacity="0.5"/>
+        <defs>
+          <linearGradient id="logoGrad" x1="0" y1="0" x2="32" y2="32">
+            <stop offset="0%" stop-color="#00ff94"/>
+            <stop offset="100%" stop-color="#0066ff"/>
+          </linearGradient>
+        </defs>
+      </svg>
+    </div>
+    <div class="logo-text">
+      <span class="logo-name">VisionAI</span>
+      <span class="logo-sub">Detection System</span>
+    </div>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a href="#" class="nav-item active" data-panel="dashboard" id="nav-dashboard">
+      <svg class="nav-icon" viewBox="0 0 20 20" fill="currentColor"><path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zm0 6a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zm10 0a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"/></svg>
+      Dashboard
+    </a>
+    <a href="#" class="nav-item" data-panel="analytics" id="nav-analytics">
+      <svg class="nav-icon" viewBox="0 0 20 20" fill="currentColor"><path d="M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zm6-4a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zm6-3a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z"/></svg>
+      Analytics
+    </a>
+    <a href="#" class="nav-item" data-panel="log" id="nav-log">
+      <svg class="nav-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M3 4a1 1 0 000 2h14a1 1 0 100-2H3zm0 4a1 1 0 000 2h14a1 1 0 100-2H3zm0 4a1 1 0 000 2h10a1 1 0 100-2H3z" clip-rule="evenodd"/></svg>
+      Detection Log
+    </a>
+  </nav>
+
+  <div class="sidebar-status">
+    <div class="status-dot" id="statusDot"></div>
+    <div class="status-info">
+      <span class="status-label" id="statusLabel">Connecting...</span>
+      <span class="status-mode" id="statusMode">—</span>
+    </div>
+  </div>
+
+  <div class="sidebar-stats">
+    <div class="stat-mini">
+      <span class="stat-mini-val" id="sidebarFPS">0</span>
+      <span class="stat-mini-lbl">FPS</span>
+    </div>
+    <div class="stat-mini">
+      <span class="stat-mini-val" id="sidebarFrames">0</span>
+      <span class="stat-mini-lbl">Frames</span>
+    </div>
+    <div class="stat-mini">
+      <span class="stat-mini-val" id="sidebarObjects">0</span>
+      <span class="stat-mini-lbl">Objects</span>
+    </div>
+  </div>
+</aside>
+
+<!-- ─────────────── MAIN CONTENT ──────────────────────────────────────────── -->
+<main class="main-content">
+
+  <!-- ── TOP BAR ─────────────────────────────────────────────────────────── -->
+  <header class="topbar">
+    <div class="topbar-left">
+      <h1 id="pageTitle">Live Detection Feed</h1>
+      <div class="breadcrumb">Real-time · YOLOv4 Tiny</div>
+    </div>
+    <div class="topbar-right">
+      <div class="time-display" id="timeDisplay">--:--:--</div>
+      <button class="btn btn-danger" id="btnReset" onclick="resetData()">
+        <svg viewBox="0 0 20 20" fill="currentColor" width="16" height="16"><path fill-rule="evenodd" d="M4 2a1 1 0 011 1v2.101a7.002 7.002 0 0111.601 2.566 1 1 0 11-1.885.666A5.002 5.002 0 005.999 7H9a1 1 0 010 2H4a1 1 0 01-1-1V3a1 1 0 011-1zm.008 9.057a1 1 0 011.276.61A5.002 5.002 0 0014.001 13H11a1 1 0 110-2h5a1 1 0 011 1v5a1 1 0 11-2 0v-2.101a7.002 7.002 0 01-11.601-2.566 1 1 0 01.61-1.276z" clip-rule="evenodd"/></svg>
+        Reset Data
+      </button>
+      <button class="btn btn-primary" id="btnExport" onclick="exportData()">
+        <svg viewBox="0 0 20 20" fill="currentColor" width="16" height="16"><path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+        Export JSON
+      </button>
+    </div>
+  </header>
+
+  <!-- ═══════════════════════════════════════════════════════════════════════ -->
+  <!-- PANEL: DASHBOARD                                                        -->
+  <!-- ═══════════════════════════════════════════════════════════════════════ -->
+  <section class="panel active" id="panel-dashboard">
+
+    <!-- KPI Row -->
+    <div class="kpi-row">
+      <div class="kpi-card" id="kpiTotal">
+        <div class="kpi-icon kpi-blue">
+          <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 12a2 2 0 100-4 2 2 0 000 4z"/><path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd"/></svg>
+        </div>
+        <div class="kpi-data">
+          <div class="kpi-value" id="kpiTotalVal">0</div>
+          <div class="kpi-label">Total Detections</div>
+        </div>
+        <div class="kpi-trend" id="kpiTotalTrend">↑ Live</div>
+      </div>
+
+      <div class="kpi-card" id="kpiClasses">
+        <div class="kpi-icon kpi-green">
+          <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M17.707 9.293a1 1 0 010 1.414l-7 7a1 1 0 01-1.414 0l-7-7A.997.997 0 012 10V5a3 3 0 013-3h5c.256 0 .512.098.707.293l7 7zM5 6a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"/></svg>
+        </div>
+        <div class="kpi-data">
+          <div class="kpi-value" id="kpiClassesVal">0</div>
+          <div class="kpi-label">Object Classes</div>
+        </div>
+        <div class="kpi-trend kpi-trend-green" id="kpiClassesTrend">Types</div>
+      </div>
+
+      <div class="kpi-card" id="kpiFPS">
+        <div class="kpi-icon kpi-purple">
+          <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"/></svg>
+        </div>
+        <div class="kpi-data">
+          <div class="kpi-value" id="kpiFPSVal">0</div>
+          <div class="kpi-label">Frames/sec</div>
+        </div>
+        <div class="kpi-trend kpi-trend-purple">Real-time</div>
+      </div>
+
+      <div class="kpi-card" id="kpiFrames">
+        <div class="kpi-icon kpi-orange">
+          <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm3 2h6v4H7V5zm8 8v2h1v-2h-1zm-2-2H7v4h6v-4zm2 0h1V9h-1v2zm1-4V5h-1v2h1zM5 5v2H4V5h1zm-1 4h1v2H4V9zm1 4H4v2h1v-2z" clip-rule="evenodd"/></svg>
+        </div>
+        <div class="kpi-data">
+          <div class="kpi-value" id="kpiFramesVal">0</div>
+          <div class="kpi-label">Frames Processed</div>
+        </div>
+        <div class="kpi-trend kpi-trend-orange">Session</div>
+      </div>
+    </div>
+
+    <!-- Feed + Object Counts -->
+    <div class="content-grid">
+
+      <!-- Live Feed Card -->
+      <div class="card feed-card">
+        <div class="card-header">
+          <div class="card-title">
+            <span class="pulse-dot"></span>
+            Live Detection Feed
+          </div>
+          <div class="feed-badges">
+            <span class="badge badge-green" id="feedModeBadge">YOLO v4</span>
+            <span class="badge badge-blue" id="feedFpsBadge">-- FPS</span>
+          </div>
+        </div>
+        <div class="video-wrapper">
+          <img id="videoFeed" src="" alt="Live detection feed" class="video-feed" />
+          <div class="video-overlay" id="videoOverlay">
+            <div class="overlay-spinner"></div>
+            <p>Connecting to stream...</p>
+          </div>
+          <div class="scan-line" id="scanLine"></div>
+        </div>
+        <div class="detection-tags" id="detectionTags"></div>
+      </div>
+
+      <!-- Object Count Panel -->
+      <div class="card counts-card">
+        <div class="card-header">
+          <div class="card-title">Object Counts</div>
+          <div class="badge badge-purple" id="activeCountBadge">0 Types</div>
+        </div>
+        <div class="counts-list" id="countsList">
+          <div class="counts-empty">
+            <svg viewBox="0 0 48 48" fill="none" width="48" height="48">
+              <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="2" opacity="0.3"/>
+              <path d="M15 24h18M24 15v18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+            <p>No detections yet</p>
+          </div>
+        </div>
+        <!-- Mini bar chart inside counts panel -->
+        <div class="mini-chart-wrap">
+          <canvas id="miniBarChart" height="100"></canvas>
+        </div>
+      </div>
+
+    </div><!-- /content-grid -->
+
+    <!-- Pie + Line summary charts row -->
+    <div class="charts-row">
+      <div class="card chart-card">
+        <div class="card-header">
+          <div class="card-title">Distribution</div>
+          <span class="badge badge-teal">Pie Chart</span>
+        </div>
+        <div class="chart-wrap">
+          <canvas id="pieChart"></canvas>
+        </div>
+      </div>
+
+      <div class="card chart-card chart-card-wide">
+        <div class="card-header">
+          <div class="card-title">Detection Timeline</div>
+          <span class="badge badge-blue">Last 60s</span>
+        </div>
+        <div class="chart-wrap">
+          <canvas id="lineChart"></canvas>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════════════════ -->
+  <!-- PANEL: ANALYTICS                                                         -->
+  <!-- ═══════════════════════════════════════════════════════════════════════ -->
+  <section class="panel" id="panel-analytics">
+    <div class="analytics-grid">
+      <div class="card chart-card chart-full">
+        <div class="card-header">
+          <div class="card-title">Object Frequency — Bar Chart</div>
+          <span class="badge badge-green">All Time</span>
+        </div>
+        <div class="chart-wrap chart-tall">
+          <canvas id="barChartFull"></canvas>
+        </div>
+      </div>
+
+      <div class="card chart-card chart-half">
+        <div class="card-header">
+          <div class="card-title">Distribution — Pie</div>
+          <span class="badge badge-teal">Percentage</span>
+        </div>
+        <div class="chart-wrap">
+          <canvas id="pieChartFull"></canvas>
+        </div>
+      </div>
+
+      <div class="card chart-card chart-half">
+        <div class="card-header">
+          <div class="card-title">Detection Rate — Line</div>
+          <span class="badge badge-purple">Per Minute</span>
+        </div>
+        <div class="chart-wrap">
+          <canvas id="lineChartFull"></canvas>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════════════════ -->
+  <!-- PANEL: LOG                                                               -->
+  <!-- ═══════════════════════════════════════════════════════════════════════ -->
+  <section class="panel" id="panel-log">
+    <div class="card log-card">
+      <div class="card-header">
+        <div class="card-title">Detection Event Log</div>
+        <div class="log-controls">
+          <input type="text" id="logSearch" placeholder="Search label..." class="log-search" oninput="filterLog()" />
+          <button class="btn btn-sm btn-ghost" onclick="clearLog()">Clear</button>
+        </div>
+      </div>
+      <div class="log-table-wrap">
+        <table class="log-table">
+          <thead>
+            <tr>
+              <th>Time</th>
+              <th>Label</th>
+              <th>Confidence</th>
+              <th>Bounding Box</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody id="logTableBody">
+            <tr><td colspan="5" class="log-empty">Waiting for detections...</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- Toast notification -->
+<div class="toast" id="toast"></div>
+
+<!-- Scripts -->
+<script src="https://cdn.socket.io/4.7.4/socket.io.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+<script src="/static/js/dashboard.js"></script>
+</body>
+</html>

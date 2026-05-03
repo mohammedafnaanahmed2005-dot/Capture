@@ -1,0 +1,11 @@
+flask
+flask-socketio
+flask-cors
+opencv-python
+opencv-contrib-python
+numpy
+requests
+pillow
+eventlet
+python-engineio
+python-socketio

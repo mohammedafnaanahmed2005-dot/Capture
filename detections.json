@@ -1,0 +1,2550 @@
+{
+  "total_counts": {
+    "person": 308,
+    "face": 10,
+    "bottle": 2
+  },
+  "timeline": [
+    {
+      "ts": 1777779134,
+      "time": "2026-05-03 09:02:14",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.434
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777779145,
+      "time": "2026-05-03 09:02:25",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.847
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777779146,
+      "time": "2026-05-03 09:02:26",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.602
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777779147,
+      "time": "2026-05-03 09:02:27",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.519
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777779148,
+      "time": "2026-05-03 09:02:28",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.474
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777779149,
+      "time": "2026-05-03 09:02:29",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.654
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777779150,
+      "time": "2026-05-03 09:02:30",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.716
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777779151,
+      "time": "2026-05-03 09:02:31",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.767
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777779152,
+      "time": "2026-05-03 09:02:32",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.816
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777779153,
+      "time": "2026-05-03 09:02:33",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.568
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777779154,
+      "time": "2026-05-03 09:02:34",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.871
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777779155,
+      "time": "2026-05-03 09:02:35",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.785
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777779156,
+      "time": "2026-05-03 09:02:36",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.763
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777779157,
+      "time": "2026-05-03 09:02:37",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.809
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777779158,
+      "time": "2026-05-03 09:02:38",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.841
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777779160,
+      "time": "2026-05-03 09:02:40",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.87
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777779161,
+      "time": "2026-05-03 09:02:41",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.868
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777779162,
+      "time": "2026-05-03 09:02:42",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.778
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777779164,
+      "time": "2026-05-03 09:02:44",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.883
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777779173,
+      "time": "2026-05-03 09:02:53",
+      "detections": [
+        {
+          "label": "face",
+          "confidence": 0.92
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777779182,
+      "time": "2026-05-03 09:03:02",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.427
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777779210,
+      "time": "2026-05-03 09:03:30",
+      "detections": [
+        {
+          "label": "face",
+          "confidence": 0.92
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777779232,
+      "time": "2026-05-03 09:03:52",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.504
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777779235,
+      "time": "2026-05-03 09:03:55",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.611
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777779239,
+      "time": "2026-05-03 09:03:59",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.627
+        },
+        {
+          "label": "face",
+          "confidence": 0.92
+        }
+      ],
+      "count": 2
+    },
+    {
+      "ts": 1777779242,
+      "time": "2026-05-03 09:04:02",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.563
+        },
+        {
+          "label": "face",
+          "confidence": 0.92
+        }
+      ],
+      "count": 2
+    },
+    {
+      "ts": 1777779243,
+      "time": "2026-05-03 09:04:03",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.489
+        },
+        {
+          "label": "face",
+          "confidence": 0.92
+        }
+      ],
+      "count": 2
+    },
+    {
+      "ts": 1777779247,
+      "time": "2026-05-03 09:04:07",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.462
+        },
+        {
+          "label": "face",
+          "confidence": 0.92
+        }
+      ],
+      "count": 2
+    },
+    {
+      "ts": 1777779251,
+      "time": "2026-05-03 09:04:11",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.485
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777779254,
+      "time": "2026-05-03 09:04:14",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.747
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777779256,
+      "time": "2026-05-03 09:04:16",
+      "detections": [
+        {
+          "label": "face",
+          "confidence": 0.92
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777779260,
+      "time": "2026-05-03 09:04:20",
+      "detections": [
+        {
+          "label": "face",
+          "confidence": 0.92
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777779274,
+      "time": "2026-05-03 09:04:34",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.363
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777779278,
+      "time": "2026-05-03 09:04:38",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.629
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777779282,
+      "time": "2026-05-03 09:04:42",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.531
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777779285,
+      "time": "2026-05-03 09:04:45",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.434
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777779289,
+      "time": "2026-05-03 09:04:49",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.397
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777779293,
+      "time": "2026-05-03 09:04:53",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.462
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777779296,
+      "time": "2026-05-03 09:04:56",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.397
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780639,
+      "time": "2026-05-03 09:27:19",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.506
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780640,
+      "time": "2026-05-03 09:27:20",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.413
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780641,
+      "time": "2026-05-03 09:27:21",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.417
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780642,
+      "time": "2026-05-03 09:27:22",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.662
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780643,
+      "time": "2026-05-03 09:27:23",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.59
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780644,
+      "time": "2026-05-03 09:27:24",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.358
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780645,
+      "time": "2026-05-03 09:27:25",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.563
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780646,
+      "time": "2026-05-03 09:27:26",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.648
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780647,
+      "time": "2026-05-03 09:27:27",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.64
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780648,
+      "time": "2026-05-03 09:27:28",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.599
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780649,
+      "time": "2026-05-03 09:27:29",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.626
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780650,
+      "time": "2026-05-03 09:27:30",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.625
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780651,
+      "time": "2026-05-03 09:27:31",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.527
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780652,
+      "time": "2026-05-03 09:27:32",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.607
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780653,
+      "time": "2026-05-03 09:27:33",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.743
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780654,
+      "time": "2026-05-03 09:27:34",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.663
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780655,
+      "time": "2026-05-03 09:27:35",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.573
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780656,
+      "time": "2026-05-03 09:27:36",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.577
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780657,
+      "time": "2026-05-03 09:27:37",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.699
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780658,
+      "time": "2026-05-03 09:27:38",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.61
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780659,
+      "time": "2026-05-03 09:27:39",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.689
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780660,
+      "time": "2026-05-03 09:27:40",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.681
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780661,
+      "time": "2026-05-03 09:27:41",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.668
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780662,
+      "time": "2026-05-03 09:27:42",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.621
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780663,
+      "time": "2026-05-03 09:27:43",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.667
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780664,
+      "time": "2026-05-03 09:27:44",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.658
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780665,
+      "time": "2026-05-03 09:27:45",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.676
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780666,
+      "time": "2026-05-03 09:27:46",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.522
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780667,
+      "time": "2026-05-03 09:27:47",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.561
+        },
+        {
+          "label": "bottle",
+          "confidence": 0.369
+        }
+      ],
+      "count": 2
+    },
+    {
+      "ts": 1777780668,
+      "time": "2026-05-03 09:27:48",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.604
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780669,
+      "time": "2026-05-03 09:27:49",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.421
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780671,
+      "time": "2026-05-03 09:27:51",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.491
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780685,
+      "time": "2026-05-03 09:28:05",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.468
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780693,
+      "time": "2026-05-03 09:28:13",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.693
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780694,
+      "time": "2026-05-03 09:28:14",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.603
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780695,
+      "time": "2026-05-03 09:28:15",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.613
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780696,
+      "time": "2026-05-03 09:28:16",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.713
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780698,
+      "time": "2026-05-03 09:28:18",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.749
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780699,
+      "time": "2026-05-03 09:28:19",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.756
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780701,
+      "time": "2026-05-03 09:28:21",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.677
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780702,
+      "time": "2026-05-03 09:28:22",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.632
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780703,
+      "time": "2026-05-03 09:28:23",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.614
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780704,
+      "time": "2026-05-03 09:28:24",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.595
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780705,
+      "time": "2026-05-03 09:28:25",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.571
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780706,
+      "time": "2026-05-03 09:28:26",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.706
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780707,
+      "time": "2026-05-03 09:28:27",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.722
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780708,
+      "time": "2026-05-03 09:28:28",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.738
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780709,
+      "time": "2026-05-03 09:28:29",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.723
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780710,
+      "time": "2026-05-03 09:28:30",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.746
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780711,
+      "time": "2026-05-03 09:28:31",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.73
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780712,
+      "time": "2026-05-03 09:28:32",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.706
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780713,
+      "time": "2026-05-03 09:28:33",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.779
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780714,
+      "time": "2026-05-03 09:28:34",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.74
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780715,
+      "time": "2026-05-03 09:28:35",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.76
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780716,
+      "time": "2026-05-03 09:28:36",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.695
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780717,
+      "time": "2026-05-03 09:28:37",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.752
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780718,
+      "time": "2026-05-03 09:28:38",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.661
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780719,
+      "time": "2026-05-03 09:28:39",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.685
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780720,
+      "time": "2026-05-03 09:28:40",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.689
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780721,
+      "time": "2026-05-03 09:28:41",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.695
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780722,
+      "time": "2026-05-03 09:28:42",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.557
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780723,
+      "time": "2026-05-03 09:28:43",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.753
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780724,
+      "time": "2026-05-03 09:28:44",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.633
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780725,
+      "time": "2026-05-03 09:28:45",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.682
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780726,
+      "time": "2026-05-03 09:28:46",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.653
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780727,
+      "time": "2026-05-03 09:28:47",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.665
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780730,
+      "time": "2026-05-03 09:28:50",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.7
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780734,
+      "time": "2026-05-03 09:28:54",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.542
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780735,
+      "time": "2026-05-03 09:28:55",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.533
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780736,
+      "time": "2026-05-03 09:28:56",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.566
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780741,
+      "time": "2026-05-03 09:29:01",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.691
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780742,
+      "time": "2026-05-03 09:29:02",
+      "detections": [
+        {
+          "label": "bottle",
+          "confidence": 0.423
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780744,
+      "time": "2026-05-03 09:29:04",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.392
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780746,
+      "time": "2026-05-03 09:29:06",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.552
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780747,
+      "time": "2026-05-03 09:29:07",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.771
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780748,
+      "time": "2026-05-03 09:29:08",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.373
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780750,
+      "time": "2026-05-03 09:29:10",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.417
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780752,
+      "time": "2026-05-03 09:29:12",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.4
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780755,
+      "time": "2026-05-03 09:29:15",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.469
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780759,
+      "time": "2026-05-03 09:29:19",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.38
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780769,
+      "time": "2026-05-03 09:29:29",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.438
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780777,
+      "time": "2026-05-03 09:29:37",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.687
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780779,
+      "time": "2026-05-03 09:29:39",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.7
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780787,
+      "time": "2026-05-03 09:29:47",
+      "detections": [
+        {
+          "label": "face",
+          "confidence": 0.92
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780794,
+      "time": "2026-05-03 09:29:54",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.383
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780804,
+      "time": "2026-05-03 09:30:04",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.391
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780813,
+      "time": "2026-05-03 09:30:13",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.453
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780838,
+      "time": "2026-05-03 09:30:38",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.437
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780843,
+      "time": "2026-05-03 09:30:43",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.352
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780846,
+      "time": "2026-05-03 09:30:46",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.383
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780850,
+      "time": "2026-05-03 09:30:50",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.66
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780852,
+      "time": "2026-05-03 09:30:52",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.669
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780853,
+      "time": "2026-05-03 09:30:53",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.635
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780854,
+      "time": "2026-05-03 09:30:54",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.645
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780855,
+      "time": "2026-05-03 09:30:55",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.637
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780856,
+      "time": "2026-05-03 09:30:56",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.648
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780858,
+      "time": "2026-05-03 09:30:58",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.644
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780859,
+      "time": "2026-05-03 09:30:59",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.574
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780860,
+      "time": "2026-05-03 09:31:00",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.598
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780862,
+      "time": "2026-05-03 09:31:02",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.76
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780863,
+      "time": "2026-05-03 09:31:03",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.628
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780864,
+      "time": "2026-05-03 09:31:04",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.584
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780866,
+      "time": "2026-05-03 09:31:06",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.605
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780867,
+      "time": "2026-05-03 09:31:07",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.511
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780868,
+      "time": "2026-05-03 09:31:08",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.729
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780869,
+      "time": "2026-05-03 09:31:09",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.634
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780870,
+      "time": "2026-05-03 09:31:10",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.61
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780871,
+      "time": "2026-05-03 09:31:11",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.428
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780872,
+      "time": "2026-05-03 09:31:12",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.476
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780874,
+      "time": "2026-05-03 09:31:14",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.427
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780875,
+      "time": "2026-05-03 09:31:15",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.566
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780876,
+      "time": "2026-05-03 09:31:16",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.664
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780877,
+      "time": "2026-05-03 09:31:17",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.628
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780878,
+      "time": "2026-05-03 09:31:18",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.543
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780879,
+      "time": "2026-05-03 09:31:19",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.585
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780880,
+      "time": "2026-05-03 09:31:20",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.568
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780881,
+      "time": "2026-05-03 09:31:21",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.537
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780882,
+      "time": "2026-05-03 09:31:22",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.565
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780883,
+      "time": "2026-05-03 09:31:23",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.548
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780884,
+      "time": "2026-05-03 09:31:24",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.463
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780885,
+      "time": "2026-05-03 09:31:25",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.513
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780886,
+      "time": "2026-05-03 09:31:26",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.562
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780887,
+      "time": "2026-05-03 09:31:27",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.514
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780889,
+      "time": "2026-05-03 09:31:29",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.542
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780890,
+      "time": "2026-05-03 09:31:30",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.619
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780891,
+      "time": "2026-05-03 09:31:31",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.457
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780892,
+      "time": "2026-05-03 09:31:32",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.496
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780893,
+      "time": "2026-05-03 09:31:33",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.448
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780894,
+      "time": "2026-05-03 09:31:34",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.509
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780896,
+      "time": "2026-05-03 09:31:36",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.484
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780897,
+      "time": "2026-05-03 09:31:37",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.366
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780898,
+      "time": "2026-05-03 09:31:38",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.425
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780899,
+      "time": "2026-05-03 09:31:39",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.41
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780900,
+      "time": "2026-05-03 09:31:40",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.506
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780901,
+      "time": "2026-05-03 09:31:41",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.362
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780902,
+      "time": "2026-05-03 09:31:42",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.622
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780903,
+      "time": "2026-05-03 09:31:43",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.709
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780904,
+      "time": "2026-05-03 09:31:44",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.612
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780905,
+      "time": "2026-05-03 09:31:45",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.616
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780906,
+      "time": "2026-05-03 09:31:46",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.482
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780907,
+      "time": "2026-05-03 09:31:47",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.506
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780908,
+      "time": "2026-05-03 09:31:48",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.617
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780909,
+      "time": "2026-05-03 09:31:49",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.498
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780910,
+      "time": "2026-05-03 09:31:50",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.614
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780911,
+      "time": "2026-05-03 09:31:51",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.628
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780912,
+      "time": "2026-05-03 09:31:52",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.574
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780913,
+      "time": "2026-05-03 09:31:53",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.625
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780914,
+      "time": "2026-05-03 09:31:54",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.65
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780915,
+      "time": "2026-05-03 09:31:55",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.66
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780916,
+      "time": "2026-05-03 09:31:56",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.651
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780917,
+      "time": "2026-05-03 09:31:57",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.555
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780918,
+      "time": "2026-05-03 09:31:58",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.535
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780919,
+      "time": "2026-05-03 09:31:59",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.599
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780920,
+      "time": "2026-05-03 09:32:00",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.62
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780921,
+      "time": "2026-05-03 09:32:01",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.567
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780922,
+      "time": "2026-05-03 09:32:02",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.592
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780923,
+      "time": "2026-05-03 09:32:03",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.691
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780924,
+      "time": "2026-05-03 09:32:04",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.567
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780925,
+      "time": "2026-05-03 09:32:05",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.616
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780926,
+      "time": "2026-05-03 09:32:06",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.578
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780927,
+      "time": "2026-05-03 09:32:07",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.67
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780928,
+      "time": "2026-05-03 09:32:08",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.636
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780929,
+      "time": "2026-05-03 09:32:09",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.726
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780930,
+      "time": "2026-05-03 09:32:10",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.659
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780931,
+      "time": "2026-05-03 09:32:11",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.609
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780932,
+      "time": "2026-05-03 09:32:12",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.611
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780933,
+      "time": "2026-05-03 09:32:13",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.603
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780934,
+      "time": "2026-05-03 09:32:14",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.508
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780935,
+      "time": "2026-05-03 09:32:15",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.525
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780936,
+      "time": "2026-05-03 09:32:16",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.566
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780937,
+      "time": "2026-05-03 09:32:17",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.568
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780938,
+      "time": "2026-05-03 09:32:18",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.564
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780939,
+      "time": "2026-05-03 09:32:19",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.523
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780940,
+      "time": "2026-05-03 09:32:20",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.551
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780941,
+      "time": "2026-05-03 09:32:21",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.561
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780942,
+      "time": "2026-05-03 09:32:22",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.533
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780943,
+      "time": "2026-05-03 09:32:23",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.62
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780944,
+      "time": "2026-05-03 09:32:24",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.66
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780945,
+      "time": "2026-05-03 09:32:25",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.543
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780946,
+      "time": "2026-05-03 09:32:26",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.564
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780947,
+      "time": "2026-05-03 09:32:27",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.504
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780948,
+      "time": "2026-05-03 09:32:28",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.577
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780949,
+      "time": "2026-05-03 09:32:29",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.578
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780950,
+      "time": "2026-05-03 09:32:30",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.513
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780951,
+      "time": "2026-05-03 09:32:31",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.581
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780952,
+      "time": "2026-05-03 09:32:32",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.51
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780953,
+      "time": "2026-05-03 09:32:33",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.486
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780954,
+      "time": "2026-05-03 09:32:34",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.65
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780955,
+      "time": "2026-05-03 09:32:35",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.646
+        }
+      ],
+      "count": 1
+    },
+    {
+      "ts": 1777780956,
+      "time": "2026-05-03 09:32:36",
+      "detections": [
+        {
+          "label": "person",
+          "confidence": 0.541
+        }
+      ],
+      "count": 1
+    }
+  ],
+  "session_start": "2026-05-03 09:02:14",
+  "frames_processed": 314
+}
